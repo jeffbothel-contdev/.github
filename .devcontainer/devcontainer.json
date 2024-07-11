@@ -1,0 +1,28 @@
+{
+    "image": "mcr.microsoft.com/vscode/devcontainers/dotnet",
+    "features": {
+        "ghcr.io/devcontainers/features/dotnet": "latest",
+        "ghcr.io/devcontainers/features/powershell": "latest",
+        "ghcr.io/devcontainers/features/github-cli": "latest",
+        "ghcr.io/devcontainers/features/azure-cli": "latest",
+        "ghcr.io/devcontainers/features/git": "latest",
+        "ghcr.io/devcontainers/features/common-utils": "latest",
+        "ghcr.io/devcontainers/features/python": "latest"
+    },
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "ms-dotnettools.csdevkit",
+                "ms-dotnettools.csharp",
+                "github.copilot",
+                "github.copilot-chat",
+                "GitHub.vscode-pull-request-github",
+                "GitHub.remotehub",
+                "GitHub.vscode-github-actions",
+                "GitHub.codespaces",
+                "ms-vscode.vscode-github-issue-notebooks",
+                "ms-python.python"
+            ]
+        }
+    }
+}
