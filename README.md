@@ -1,1 +1,1 @@
-# .github
+# Jeff Bothel's Continuing Development - Organization Definition Repo
